@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureHub.Plugins.PrivateMessaging", "src\PureHub.Plugins.PrivateMessaging\PureHub.Plugins.PrivateMessaging.csproj", "{333BD054-07B6-4AAD-BBA3-A86555FDA0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PureHub.Plugins.PrivateMessaging.Tests", "src\PureHub.Plugins.PrivateMessaging.Tests\PureHub.Plugins.PrivateMessaging.Tests.csproj", "{11A440C8-2FA6-47B5-9158-EFEE25914355}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{333BD054-07B6-4AAD-BBA3-A86555FDA0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{333BD054-07B6-4AAD-BBA3-A86555FDA0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{333BD054-07B6-4AAD-BBA3-A86555FDA0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11A440C8-2FA6-47B5-9158-EFEE25914355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11A440C8-2FA6-47B5-9158-EFEE25914355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11A440C8-2FA6-47B5-9158-EFEE25914355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11A440C8-2FA6-47B5-9158-EFEE25914355}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -37,14 +37,34 @@
     <Reference Include="System" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CQRS\Domain\Message.cs" />
+    <Compile Include="CQRS\Domain\Recipient.cs" />
+    <Compile Include="CQRS\ES\MessageCreated.cs" />
+    <Compile Include="CQRS\ES\MessageDataChanged.cs" />
+    <Compile Include="CQRS\ES\MessageDeleted.cs" />
+    <Compile Include="CQRS\ES\MessageMarkedAsRead.cs" />
+    <Compile Include="CQRS\ES\MessageMarkedAsUnread.cs" />
+    <Compile Include="CQRS\ES\MessageReadStateChanged.cs" />
+    <Compile Include="CQRS\ES\MessageSent.cs" />
+    <Compile Include="CQRS\Exceptions\MessageException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\ExceptionResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ExceptionResources.resx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="API\" />
-    <Folder Include="CQRS\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ExceptionResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ExceptionResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
