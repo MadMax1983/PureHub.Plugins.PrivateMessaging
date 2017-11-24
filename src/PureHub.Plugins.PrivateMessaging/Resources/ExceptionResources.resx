@@ -126,6 +126,9 @@
   <data name="MessageAlreadySent" xml:space="preserve">
     <value>A message has been already sent.</value>
   </data>
+  <data name="MessageNotFound" xml:space="preserve">
+    <value>Message {0} has not been found.</value>
+  </data>
   <data name="NoMessageDataToChange" xml:space="preserve">
     <value>A message has no data to change.</value>
   </data>

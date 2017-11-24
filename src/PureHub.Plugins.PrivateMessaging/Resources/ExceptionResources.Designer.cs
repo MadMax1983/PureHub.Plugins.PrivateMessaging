@@ -88,6 +88,15 @@ namespace PureHub.Plugins.PrivateMessaging.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Message {0} has not been found..
+        /// </summary>
+        internal static string MessageNotFound {
+            get {
+                return ResourceManager.GetString("MessageNotFound", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to A message has no data to change..
         /// </summary>
         internal static string NoMessageDataToChange {

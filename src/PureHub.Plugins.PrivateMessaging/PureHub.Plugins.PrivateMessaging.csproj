@@ -47,6 +47,22 @@
     <Compile Include="CQRS\ES\MessageReadStateChanged.cs" />
     <Compile Include="CQRS\ES\MessageSent.cs" />
     <Compile Include="CQRS\Exceptions\MessageException.cs" />
+    <Compile Include="CQRS\Messaging\ChangeMessageReadState.cs" />
+    <Compile Include="CQRS\Messaging\ChangeMessageReadStateHandler.cs" />
+    <Compile Include="CQRS\Messaging\DeleteMessage.cs" />
+    <Compile Include="CQRS\Messaging\DeleteMessageHandler.cs" />
+    <Compile Include="CQRS\Messaging\MarkMessageAsRead.cs" />
+    <Compile Include="CQRS\Messaging\MarkMessageAsReadHandler.cs" />
+    <Compile Include="CQRS\Messaging\MarkMessageAsUnread.cs" />
+    <Compile Include="CQRS\Messaging\MarkMessageAsUnreadHandler.cs" />
+    <Compile Include="CQRS\Messaging\SaveDraftMessage.cs" />
+    <Compile Include="CQRS\Messaging\SaveDraftMessageHandler.cs" />
+    <Compile Include="CQRS\Messaging\SaveNewMessage.cs" />
+    <Compile Include="CQRS\Messaging\SaveNewMessageHandler.cs" />
+    <Compile Include="CQRS\Messaging\SendDraftMessage.cs" />
+    <Compile Include="CQRS\Messaging\SendDraftMessageHandler.cs" />
+    <Compile Include="CQRS\Messaging\SendNewMessage.cs" />
+    <Compile Include="CQRS\Messaging\SendNewMessageHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\ExceptionResources.Designer.cs">
       <AutoGen>True</AutoGen>
